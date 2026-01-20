@@ -15,7 +15,7 @@ const itinerary = [
             { time: "05:30", title: "인천공항 집결", desc: "여권, E-ticket 확인 (비행기 08:30)", mapQuery: "Incheon International Airport" },
             { time: "08:30", title: "인천 출발", desc: "에어마카오 NX825", mapQuery: "" },
             { time: "11:30", title: "마카오 공항 도착", desc: "입국 심사 및 짐 찾기 (NX825)", mapQuery: "Macau International Airport" },
-            { time: "13:00", title: "호텔 이동 & 짐 맡기기", desc: "브로드웨이 마카오 호텔 (Broadway Macau)", mapQuery: "Broadway Macau" },
+            { time: "13:00", title: "호텔 이동 & 짐 맡기기", desc: "아르티젠 그랜드 라파 마카오 호텔 (Artyzen Grand Lapa Macau)", mapQuery: "Artyzen Grand Lapa Macau" },
             { time: "14:00", title: "점심 식사", desc: "타이파 빌리지 근처 / 호텔식", mapQuery: "Taipa Village" },
             { time: "16:00", title: "올드타운 관광", desc: "세나도광장, 성바울 성당 (호텔셔틀/택시)", mapQuery: "Senado Square" },
             { time: "19:00", title: "저녁 식사", desc: "영도죽 (Yeng Do Juk) 또는 매캐니즈", mapQuery: "Yeng Do Juk Macau" },
