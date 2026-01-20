@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Trip Guide</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icons (Using Phosphor Icons via CDN for modern look) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- SECTION: HOME -->
+        <section id="home" class="active">
+            <header class="hero-header">
+
+                <div
+                    style="font-size: 0.9rem; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; color: var(--color-accent);">
+                    Family Trip</div>
+                <h1 id="hero-title" class="hero-title">Macau & Hong Kong</h1>
+                <p style="color: var(--color-text-muted);">2026. 01. 23 - 01. 28</p>
+            </header>
+
+            <div id="countdown" class="card countdown-box">
+                <div
+                    style="width: 100%; text-align: center; margin-bottom: 10px; font-size: 0.9rem; color: var(--color-text-muted);">
+                    출발까지</div>
+                <div class="time-unit">
+                    <div id="days" class="time-val">--</div>
+                    <div class="time-label">일</div>
+                </div>
+                <div style="font-size: 2rem; color: var(--color-glass-border)">:</div>
+                <div class="time-unit">
+                    <div id="hours" class="time-val">--</div>
+                    <div class="time-label">시간</div>
+                </div>
+            </div>
+
+            <div class="card" style="text-align: center;">
+                <i class="ph ph-airplane-tilt"
+                    style="font-size: 2rem; color: var(--color-primary); margin-bottom: 10px;"></i>
+                <h3>Let's go!</h3>
+                <p style="color: var(--color-text-muted); font-size: 0.9rem; margin-top: 5px;">
+                    즐거운 가족 여행을 위한<br>
+                    모바일 가이드북입니다.
+                </p>
+            </div>
+
+            <div style="height: 100px;"></div> <!-- Spacer -->
+        </section>
+
+        <!-- SECTION: ITINERARY -->
+        <section id="itinerary">
+            <h2 style="margin-bottom: 20px; padding-left: 10px;">여행 일정 <span
+                    style="font-size:0.6em; color:var(--color-primary)">4박 6일</span></h2>
+            <div id="itinerary-list">
+                <!-- Javascript will inject content here -->
+            </div>
+            <div style="height: 100px;"></div>
+        </section>
+
+        <!-- SECTION: INFO -->
+        <section id="info">
+            <h2 style="margin-bottom: 20px; padding-left: 10px;">여행 정보</h2>
+
+            <!-- Flight Info -->
+            <div class="card">
+                <h3 style="margin-bottom: 10px; display:flex; align-items:center; gap:8px;">
+                    <i class="ph ph-airplane" style="color:var(--color-primary)"></i> 항공편
+                </h3>
+                <div style="background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; margin-bottom: 8px;">
+                    <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                        <span class="font-bold">ICN -> MFM</span>
+                        <span class="text-muted">1/23 (금)</span>
+                    </div>
+                    <div style="font-size:0.9rem;">
+                        <span style="color:var(--color-primary)">NX825</span> 08:30 출발
+                    </div>
+                </div>
+                <div style="background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px;">
+                    <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                        <span class="font-bold">HKG -> ICN</span>
+                        <span class="text-muted">1/27 (화)</span>
+                    </div>
+                    <div style="font-size:0.9rem;">
+                        <span style="color:var(--color-accent)">HX626</span> 20:45 출발
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin: 30px 0 15px 10px;">체크리스트</h3>
+            <div id="checklist-container">
+                <!-- Javascript will inject content here -->
+            </div>
+            <div style="height: 100px;"></div>
+        </section>
+
+
+        <!-- NAVIGATION BAR -->
+        <nav class="nav-bar">
+            <div class="nav-item active" data-target="home">
+                <i class="ph ph-house nav-icon"></i>
+                <span>홈</span>
+            </div>
+            <div class="nav-item" data-target="itinerary">
+                <i class="ph ph-calendar-check nav-icon"></i>
+                <span>일정</span>
+            </div>
+            <div class="nav-item" data-target="info">
+                <i class="ph ph-info nav-icon"></i>
+                <span>정보</span>
+            </div>
+        </nav>
+
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
