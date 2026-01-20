@@ -33,8 +33,9 @@ const itinerary = [
             { time: "11:00", title: "타이파 빌리지로 이동", desc: "호텔셔틀 이용", mapQuery: "Taipa Village Macau" },
             { time: "12:30", title: "점심 식사", desc: "Restaurant Litoral (매캐니즈) 등", mapQuery: "Restaurante Litoral Taipa" },
             { time: "14:30", title: "베네시안 / 파리지앵 투어", desc: "카지노, 운하, 쇼핑 (브로드웨이 호텔과 연결됨)", mapQuery: "The Venetian Macao" },
+            { time: "17:30", title: "저녁 식사 (베네시안)", desc: "베네시안 내 음식점", mapQuery: "The Venetian Macao" },
             { time: "19:00", title: "분수쇼 관람", desc: "원팰리스 (무료)", mapQuery: "Wynn Palace" },
-            { time: "20:00", title: "하우스 오브 워터", desc: "공연 관람 (예약 확인)", mapQuery: "The House of Dancing Water" },
+            { time: "20:00", title: "하우스 오브 워터", desc: "공연 관람 (예약 확인, 미정)", mapQuery: "The House of Dancing Water" },
             { time: "22:00", title: "야경 투어 & 복귀", desc: "파리지앵/런더러 야경" }
         ]
     },
